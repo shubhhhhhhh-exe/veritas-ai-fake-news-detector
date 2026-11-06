@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 // Set this to your Render backend link once deployed (or local IP for testing)
-const API_URL = 'http://localhost:8000/predict';
+const API_URL = 'https://YOUR-RENDER-URL.onrender.com/predict';
 
 export default function App() {
   const [text, setText] = useState('');
